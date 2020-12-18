@@ -1,0 +1,122 @@
+
+.App-header {
+   
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center ;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* .MuiTableCell-body {
+     background-color: rgb(206 91 91); 
+} */
+
+
+
+.swichh{
+   background-color: black;
+
+}
+
+
+.border{
+    
+position: absolute;
+width: 600px;
+height: 138px;
+left: 0px;
+top: 214px;
+
+background: #F8F9FF;
+border-radius: 4px;
+}
+
+.img{
+float: right;
+}
+
+.position{
+        margin-left: 1140px;
+        display:flex;
+}
+
+/*stop left right scrolling */
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.PositinRight{
+      margin-right: 1140px;
+}
+
+.swichh{
+    position: absolute;
+width: 600px;
+height: 138px;
+left: 0px;
+top: 214px;
+color: black;
+background: #F8F9FF;
+border-radius: 4px;
+}
+
+.color{
+    color:black;
+}
+
+.Vector{
+    /* Vector */
+
+
+position: absolute;
+width: 12px;
+height: 32px;
+left: 0px;
+top: 14px;
+
+/* Balance / Secondary */
+
+background: #DCFF00;
+}
+
+.font{
+position: absolute;
+width: 476px;
+height: 49px;
+left: 24px;
+top: 0px;
+
+/* Balance / H2 / Bold */
+
+font-family: Aeonik TRIAL;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 37px;
+display: flex;
+align-items: flex-end;
+
+/* Balance / Black */
+
+color: #1D1D1D;
+}
